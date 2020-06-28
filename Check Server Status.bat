@@ -32,6 +32,13 @@ for /F "usebackq delims=" %%a in (!file!) do (
 		if not !check_password! == !param! (
 			call set "password=%%param:password:=%%"
 		)	
+		
+		
+		
+		
+		
+		
+		
 
 		call set "check_server_name=%%param:server_name:=%%"
 				
