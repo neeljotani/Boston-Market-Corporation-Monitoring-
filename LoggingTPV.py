@@ -7,6 +7,9 @@ tpvOName = AdminControl.makeObjectName(tpvName)
 
 pref = com.ibm.ws.tpv.engine.UserPreferences()
 
+
+
+
 pref.setServerName(sys.argv[1])
 
 pref.setNodeName(sys.argv[3])
